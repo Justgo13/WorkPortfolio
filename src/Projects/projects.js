@@ -7,7 +7,7 @@ import { PROJECTS } from '../actions/action_types';
 class Projects extends Component {
     state = {
         heading: PROJECTS,
-        img_url: "AboutMe.jpg",
+        img_url: "projects.png",
         sub_heading: "Where skills were applied"
     }
 

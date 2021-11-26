@@ -7,8 +7,8 @@ import { WORK_EXPERIENCE } from '../actions/action_types';
 class WorkExperience extends Component {
     state = {
         heading: WORK_EXPERIENCE,
-        img_url: "AboutMe.jpg",
-        sub_heading: "Where skills were applied"
+        img_url: "work_experience.png",
+        sub_heading: "Collaboration is key"
     }
 
     
