@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import NavBar from './NavBar/NavBar.js';
 import AboutMe from './AboutMe/aboutme.js';
+import WorkExperience from "./WorkExperience/work_experience.js";
+
 import {createStore, applyMiddleware} from "redux";
 import rootReducer from "./reducers/root-reducer";
 import {Provider} from "react-redux";
@@ -16,6 +18,7 @@ class App extends React.Component {
                 <div className="container">
                     <NavBar></NavBar>
                     <AboutMe></AboutMe>
+                    <WorkExperience></WorkExperience>
                 </div>
             </Provider>
         );

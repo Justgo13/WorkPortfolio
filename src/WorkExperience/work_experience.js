@@ -2,19 +2,19 @@ import React, { Component } from 'react';
 import Header from '../Header/header';
 import Footer from '../Footer/footer';
 import {connect} from 'react-redux';
-import { ABOUT_ME } from '../actions/action_types';
+import { WORK_EXPERIENCE } from '../actions/action_types';
 
-class AboutMe extends Component {
+class WorkExperience extends Component {
     state = {
-        heading: ABOUT_ME,
+        heading: WORK_EXPERIENCE,
         img_url: "AboutMe.jpg",
-        sub_heading: "Carleton University Software Engineering Student"
+        sub_heading: "Where skills were applied"
     }
 
     
     render() {
-        if (this.props.active_page === ABOUT_ME) {
-            // active page is About Me, show it
+        if (this.props.active_page === WORK_EXPERIENCE) {
+            // active page is work experience, show it
             return (
                 <div>
                     <Header {...this.state}></Header>
@@ -36,4 +36,4 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps, null)(AboutMe);
+export default connect(mapStateToProps, null)(WorkExperience);
