@@ -3,7 +3,7 @@ import Header from '../Header/header';
 import Footer from '../Footer/footer';
 import {connect} from 'react-redux';
 import { WORK_EXPERIENCE } from '../actions/action_types';
-import Experience from './experience';
+import Experience from '../Experience/experience';
 
 class WorkExperience extends Component {
     state = {
