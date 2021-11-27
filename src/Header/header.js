@@ -4,7 +4,7 @@ import "./header.css";
 const Header = ({heading, img_url, sub_heading}) => {
     const styles = {
         header: {
-          backgroundImage: `url(/dist/${img_url})`,
+          backgroundImage: `url(/dist/images${img_url})`,
           height: '20vh',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',

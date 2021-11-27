@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import "./footer.css";
+import Logo from '../Logo/logo';
 
 class Footer extends Component {
     state = {
@@ -11,10 +12,10 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <a href={this.state.github_url} target="_blank" rel="noreferrer">
-                    <i className="fab fa-github icon" id="github"></i>
+                    <Logo logo_name="github"></Logo>
                 </a>
                 <a href={this.state.linkedin_url} target="_blank" rel="noreferrer">
-                    <i className="fab fa-linkedin icon" id="linkedin"></i>
+                    <Logo logo_name="linkedin"></Logo>
                 </a>
             </div>
         );
