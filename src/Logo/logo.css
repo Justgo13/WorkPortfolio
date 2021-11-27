@@ -1,7 +1,6 @@
 .icon {
     margin: 1rem 2rem;
     font-size: 4rem;
-    
 }
 
 #linkedin {
@@ -19,4 +18,48 @@ a {
 
 a:hover, a:focus {
     color: #ff0000;
+}
+
+#html5 {
+    color: #ffae00;
+}
+
+#js-square {
+    color: #ffe713;
+}
+
+#css3-alt {
+    color: #132bff;
+}
+
+#react {
+    color: #13a9ff;
+}
+
+#php {
+    color: #eb13ff;
+}
+
+#bootstrap {
+    color: #73008a;
+}
+
+#npm {
+    color: #ff1327;
+}
+
+#database {
+    color: #20ec19;
+}
+
+#python {
+    color: #f8df00;
+}
+
+#java {
+    color: #c28e00;
+}
+
+#cuttlefish {
+    color: #370aa1;
 }
