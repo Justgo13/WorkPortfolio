@@ -1,0 +1,7 @@
+.experience_date {
+    display: flex;
+    justify-content: flex-end;
+}
+.experience {
+    margin: 1rem auto;
+}
