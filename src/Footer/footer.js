@@ -5,7 +5,7 @@ import Logo from '../Logo/logo';
 class Footer extends Component {
     state = {
         github_url: "https://github.com/Justgo13",
-        linkedin_url: "https://www.linkedin.com/in/justgo13/"
+        linkedin_url: "https://www.linkedin.com/in/justgo13"
     }
 
     render() {
