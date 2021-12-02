@@ -13,7 +13,18 @@ class Projects extends Component {
         experiences: [
             {
                 position_name: "Java Developer",
-                company_info: "Irdeto, Ottawa, ON",
+                company_info: "Risk!, Ottawa, ON",
+                experience_notes: [
+                    "Re-created the Risk board game as a Java desktop application that followed the MVC design pattern allowing for modifications of each component to be independent of one another",
+                    "Created human and AI player types using object-oriented inheritance concepts such as inheritance to minimize code repetition and improve execution speed",
+                    "Resolved disputes quickly with team members that had a hard time keeping up with the workload by meeting with them and discussing alternative routes which lead to an increase in overall team productivity",
+                    "Leaded team members in weekly discussions about project deliverables and made sure all deliverables were met for upcoming deadlines by following a tight but productive schedule"
+                ],
+                experience_date: "September 2020 - December 2020"
+            },
+            {
+                position_name: "Java Developer",
+                company_info: "School Management Application, Ottawa, ON",
                 experience_notes: [
                     "Established a client-server platform to retain user data upon application closure by connecting the Java GUI to a NoSQL database",
                     "Developed Java functions to select, update, and delete information in NoSQL MongoDB documents",

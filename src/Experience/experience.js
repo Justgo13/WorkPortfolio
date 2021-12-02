@@ -11,14 +11,14 @@ const Experience = ({position_name, company_info, experience_notes, experience_d
     return (
         <div>
             <div className="row experience">
-                <div className="col-md-8">
+                <div className="col-md-7">
                     <h3>{position_name}</h3>
                     <p>{company_info}</p>
                     <ul>
                         {create_experience_notes([...experience_notes])}
                     </ul>
                 </div>
-                <div className="col-md-4 experience_date">
+                <div className="col-md-5 experience_date">
                     <h3>{experience_date}</h3>
                 </div>
             </div>
